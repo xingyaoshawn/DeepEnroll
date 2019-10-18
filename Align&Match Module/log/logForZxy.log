@@ -1,0 +1,2099 @@
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 10
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent 0
+dev size # sent 0
+test size # sent 0
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 10
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent 0
+dev size # sent 0
+test size # sent 0
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 10
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(512)
+dev size # sent tensor(371)
+test size # sent tensor(15)
+loading input embeddings...
+start to train...
+epoch 0, batches 46|46, train-acc 0.592, loss 24.910, para-norm 657.172, grad-norm 336.841, time 1.77s, 
+dev-acc 0.752
+current best-dev:
+	0 0.752
+save model!
+epoch 1, batches 46|46, train-acc 0.707, loss 2.307, para-norm 938.262, grad-norm 5.094, time 3.67s, 
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 1000
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(113040)
+dev size # sent tensor(37746)
+test size # sent tensor(37877)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(59569)
+dev size # sent tensor(20058)
+test size # sent tensor(19829)
+loading input embeddings...
+start to train...
+epoch 0, batches 1000|2915, train-acc 0.498, loss 75.989, para-norm 421.429, grad-norm 141964.281, time 708.65s, 
+epoch 0, batches 2000|2915, train-acc 0.661, loss 6.762, para-norm 731.656, grad-norm 0.156, time 661.91s, 
+epoch 0, batches 2915|2915, train-acc 0.953, loss 0.597, para-norm 738.291, grad-norm 0.000, time 603.64s, 
+dev-acc 0.987
+current best-dev:
+	0 0.987
+save model!
+epoch 1, batches 1000|2915, train-acc 0.979, loss 0.770, para-norm 695.205, grad-norm 0.000, time 669.73s, 
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(59569)
+dev size # sent tensor(20058)
+test size # sent tensor(19829)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 50
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(32957)
+dev size # sent tensor(10951)
+test size # sent tensor(11202)
+loading input embeddings...
+start to train...
+epoch 0, batches 1000|1554, train-acc 0.658, loss 9.054, para-norm 793.016, grad-norm 2.621, time 544.23s, 
+epoch 0, batches 1554|1554, train-acc 0.981, loss 0.090, para-norm 764.101, grad-norm 0.000, time 310.69s, 
+dev-acc 0.991
+current best-dev:
+	0 0.991
+save model!
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.01
+hidden_size 300
+max_length 50
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(32957)
+dev size # sent tensor(10951)
+test size # sent tensor(11202)
+loading input embeddings...
+start to train...
+epoch 0, batches 1000|1554, train-acc 0.812, loss 1.292, para-norm 144.511, grad-norm 0.000, time 484.62s, 
+epoch 0, batches 1554|1554, train-acc 0.985, loss 0.070, para-norm 140.956, grad-norm 0.000, time 288.70s, 
+dev-acc 0.987
+current best-dev:
+	0 0.987
+save model!
+epoch 1, batches 1000|1554, train-acc 0.994, loss 0.038, para-norm 136.238, grad-norm 0.000, time 5163.94s, 
+epoch 1, batches 1554|1554, train-acc 0.996, loss 0.023, para-norm 132.609, grad-norm 0.000, time 288.05s, 
+dev-acc 0.996
+current best-dev:
+	0 0.987
+	1 0.996
+save model!
+epoch 2, batches 1000|1554, train-acc 0.993, loss 0.030, para-norm 129.018, grad-norm 0.000, time 547.46s, 
+epoch 2, batches 1554|1554, train-acc 0.995, loss 0.025, para-norm 126.938, grad-norm 0.000, time 287.32s, 
+dev-acc 0.996
+current best-dev:
+	0 0.987
+	1 0.996
+	2 0.996
+save model!
+epoch 3, batches 1000|1554, train-acc 0.997, loss 0.015, para-norm 122.542, grad-norm 0.000, time 545.34s, 
+epoch 3, batches 1554|1554, train-acc 0.997, loss 0.008, para-norm 118.775, grad-norm 0.000, time 312.97s, 
+dev-acc 0.997
+current best-dev:
+	0 0.987
+	1 0.996
+	2 0.996
+	3 0.997
+save model!
+epoch 4, batches 1000|1554, train-acc 0.998, loss 0.009, para-norm 116.506, grad-norm 0.000, time 524.80s, 
+epoch 4, batches 1554|1554, train-acc 0.999, loss 0.003, para-norm 115.680, grad-norm 0.000, time 36981.17s, 
+dev-acc 0.998
+current best-dev:
+	0 0.987
+	1 0.996
+	2 0.996
+	3 0.997
+	4 0.998
+save model!
+epoch 5, batches 1000|1554, train-acc 0.999, loss 0.008, para-norm 112.467, grad-norm 0.000, time 535.50s, 
+epoch 5, batches 1554|1554, train-acc 1.000, loss 0.001, para-norm 110.239, grad-norm 0.000, time 330.33s, 
+dev-acc 0.999
+current best-dev:
+	0 0.987
+	1 0.996
+	2 0.996
+	3 0.997
+	4 0.998
+	5 0.999
+save model!
+epoch 6, batches 1000|1554, train-acc 1.000, loss 0.003, para-norm 106.208, grad-norm 0.000, time 579.10s, 
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 5
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.01
+hidden_size 300
+max_length 50
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 3
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.01
+hidden_size 300
+max_length 50
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(32957)
+dev size # sent tensor(10951)
+test size # sent tensor(11202)
+loading input embeddings...
+start to train...
+epoch 0, batches 1000|1554, train-acc 0.829, loss 0.869, para-norm 162.201, grad-norm 23.075, time 444.36s, 
+epoch 0, batches 1554|1554, train-acc 0.974, loss 0.168, para-norm 161.984, grad-norm 0.000, time 265.16s, 
+dev-acc 0.988
+current best-dev:
+	0 0.988
+save model!
+epoch 1, batches 1000|1554, train-acc 0.985, loss 0.112, para-norm 154.087, grad-norm 0.000, time 493.26s, 
+epoch 1, batches 1554|1554, train-acc 0.991, loss 0.089, para-norm 151.347, grad-norm 0.000, time 278.31s, 
+dev-acc 0.989
+current best-dev:
+	0 0.988
+	1 0.989
+save model!
+epoch 2, batches 1000|1554, train-acc 0.990, loss 0.104, para-norm 145.442, grad-norm 0.000, time 498.55s, 
+epoch 2, batches 1554|1554, train-acc 0.988, loss 0.123, para-norm 143.863, grad-norm 0.000, time 298.21s, 
+dev-acc 0.988
+training end!
+test-acc 0.988
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 10
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent 0
+dev size # sent 0
+test size # sent 0
+loading input embeddings...
+start to train...
+training end!
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 10
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent 0
+dev size # sent 0
+test size # sent 0
+loading input embeddings...
+start to train...
+training end!
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 10
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(14)
+dev size # sent tensor(32)
+test size # sent tensor(29895)
+loading input embeddings...
+start to train...
+training end!
+test-acc 0.570
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(14)
+dev size # sent tensor(32)
+test size # sent tensor(9876)
+loading input embeddings...
+start to train...
+training end!
+test-acc 0.521
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(5119)
+dev size # sent tensor(372)
+test size # sent tensor(341)
+loading input embeddings...
+start to train...
+training end!
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(5119)
+dev size # sent tensor(372)
+test size # sent tensor(341)
+loading input embeddings...
+start to train...
+training end!
+test-acc 0.804
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(5119)
+dev size # sent tensor(372)
+test size # sent tensor(341)
+loading input embeddings...
+start to train...
+epoch 0, batches 974|974, train-acc 0.536, loss 26.209, para-norm 305.342, grad-norm 0.000, time 209.42s, 
+dev-acc 0.594
+current best-dev:
+	0 0.594
+save model!
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3521)
+dev size # sent tensor(1222)
+test size # sent tensor(1089)
+loading input embeddings...
+start to train...
+epoch 0, batches 844|844, train-acc 0.515, loss 28.965, para-norm 247.720, grad-norm 0.026, time 165.25s, 
+dev-acc 0.455
+current best-dev:
+	0 0.455
+save model!
+epoch 1, batches 844|844, train-acc 0.488, loss 11.877, para-norm 365.702, grad-norm 1930.281, time 179.07s, 
+dev-acc 0.455
+epoch 2, batches 844|844, train-acc 0.602, loss 8.486, para-norm 585.684, grad-norm 3062.253, time 174.70s, 
+dev-acc 0.659
+current best-dev:
+	0 0.455
+	2 0.659
+save model!
+epoch 3, batches 844|844, train-acc 0.747, loss 8.058, para-norm 574.091, grad-norm 0.000, time 181.42s, 
+dev-acc 0.737
+current best-dev:
+	0 0.455
+	2 0.659
+	3 0.737
+save model!
+epoch 4, batches 844|844, train-acc 0.854, loss 1.746, para-norm 613.618, grad-norm 0.000, time 175.21s, 
+dev-acc 0.853
+current best-dev:
+	0 0.455
+	2 0.659
+	3 0.737
+	4 0.853
+save model!
+epoch 5, batches 844|844, train-acc 0.911, loss 1.266, para-norm 570.953, grad-norm 237.491, time 181.39s, 
+dev-acc 0.933
+current best-dev:
+	0 0.455
+	2 0.659
+	3 0.737
+	4 0.853
+	5 0.933
+save model!
+epoch 6, batches 844|844, train-acc 0.936, loss 0.839, para-norm 546.542, grad-norm 0.000, time 175.78s, 
+dev-acc 0.957
+current best-dev:
+	0 0.455
+	2 0.659
+	3 0.737
+	4 0.853
+	5 0.933
+	6 0.957
+save model!
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3521)
+dev size # sent tensor(1222)
+test size # sent tensor(1089)
+loading input embeddings...
+start to train...
+training end!
+test-acc 0.928
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3521)
+dev size # sent tensor(1222)
+test size # sent tensor(1089)
+loading input embeddings...
+start to train...
+epoch 0, batches 844|844, train-acc 0.483, loss 36.366, para-norm 240.572, grad-norm 4793.846, time 161.54s, 
+dev-acc 0.545
+current best-dev:
+	0 0.545
+save model!
+epoch 1, batches 844|844, train-acc 0.530, loss 6.803, para-norm 377.937, grad-norm 0.000, time 174.90s, 
+dev-acc 0.485
+epoch 2, batches 844|844, train-acc 0.684, loss 6.656, para-norm 514.213, grad-norm 0.000, time 182.87s, 
+dev-acc 0.906
+current best-dev:
+	0 0.545
+	2 0.906
+save model!
+epoch 3, batches 844|844, train-acc 0.864, loss 1.596, para-norm 609.214, grad-norm 0.000, time 172.30s, 
+dev-acc 0.929
+current best-dev:
+	0 0.545
+	2 0.906
+	3 0.929
+save model!
+epoch 4, batches 844|844, train-acc 0.938, loss 0.838, para-norm 601.253, grad-norm 0.000, time 171.44s, 
+dev-acc 0.957
+current best-dev:
+	0 0.545
+	2 0.906
+	3 0.929
+	4 0.957
+save model!
+epoch 5, batches 844|844, train-acc 0.952, loss 0.505, para-norm 533.092, grad-norm 0.000, time 171.12s, 
+dev-acc 0.956
+epoch 6, batches 844|844, train-acc 0.963, loss 0.415, para-norm 487.694, grad-norm 0.000, time 171.93s, 
+dev-acc 0.962
+current best-dev:
+	0 0.545
+	2 0.906
+	3 0.929
+	4 0.957
+	6 0.962
+save model!
+epoch 7, batches 844|844, train-acc 0.968, loss 0.357, para-norm 441.893, grad-norm 0.000, time 172.21s, 
+dev-acc 0.961
+epoch 8, batches 844|844, train-acc 0.972, loss 0.358, para-norm 405.119, grad-norm 0.000, time 173.57s, 
+dev-acc 0.973
+current best-dev:
+	0 0.545
+	2 0.906
+	3 0.929
+	4 0.957
+	6 0.962
+	8 0.973
+save model!
+epoch 9, batches 844|844, train-acc 0.976, loss 0.336, para-norm 368.397, grad-norm 0.000, time 173.81s, 
+dev-acc 0.974
+current best-dev:
+	0 0.545
+	2 0.906
+	3 0.929
+	4 0.957
+	6 0.962
+	8 0.973
+	9 0.974
+save model!
+epoch 10, batches 844|844, train-acc 0.981, loss 0.279, para-norm 343.919, grad-norm 0.000, time 174.34s, 
+dev-acc 0.957
+epoch 11, batches 844|844, train-acc 0.972, loss 0.348, para-norm 326.561, grad-norm 0.000, time 174.23s, 
+dev-acc 0.974
+epoch 12, batches 844|844, train-acc 0.982, loss 0.227, para-norm 303.429, grad-norm 0.000, time 175.18s, 
+dev-acc 0.976
+current best-dev:
+	0 0.545
+	2 0.906
+	3 0.929
+	4 0.957
+	6 0.962
+	8 0.973
+	9 0.974
+	12 0.976
+save model!
+epoch 13, batches 844|844, train-acc 0.984, loss 0.234, para-norm 284.248, grad-norm 0.000, time 175.12s, 
+dev-acc 0.984
+current best-dev:
+	0 0.545
+	2 0.906
+	3 0.929
+	4 0.957
+	6 0.962
+	8 0.973
+	9 0.974
+	12 0.976
+	13 0.984
+save model!
+epoch 14, batches 844|844, train-acc 0.985, loss 0.270, para-norm 269.224, grad-norm 0.000, time 176.33s, 
+dev-acc 0.979
+epoch 15, batches 844|844, train-acc 0.983, loss 0.262, para-norm 252.055, grad-norm 0.000, time 175.23s, 
+dev-acc 0.980
+epoch 16, batches 844|844, train-acc 0.985, loss 0.274, para-norm 237.594, grad-norm 0.000, time 175.66s, 
+dev-acc 0.971
+epoch 17, batches 844|844, train-acc 0.986, loss 0.219, para-norm 222.598, grad-norm 0.000, time 177.03s, 
+dev-acc 0.981
+epoch 18, batches 844|844, train-acc 0.984, loss 0.212, para-norm 210.549, grad-norm 0.001, time 177.72s, 
+dev-acc 0.971
+epoch 19, batches 844|844, train-acc 0.986, loss 0.217, para-norm 200.277, grad-norm 0.000, time 177.68s, 
+dev-acc 0.980
+epoch 20, batches 844|844, train-acc 0.986, loss 0.185, para-norm 191.089, grad-norm 0.000, time 181.66s, 
+dev-acc 0.981
+epoch 21, batches 844|844, train-acc 0.985, loss 0.176, para-norm 182.326, grad-norm 0.000, time 186.36s, 
+dev-acc 0.984
+current best-dev:
+	0 0.545
+	2 0.906
+	3 0.929
+	4 0.957
+	6 0.962
+	8 0.973
+	9 0.974
+	12 0.976
+	13 0.984
+	21 0.984
+save model!
+epoch 22, batches 844|844, train-acc 0.982, loss 0.209, para-norm 175.388, grad-norm 0.000, time 507.95s, 
+dev-acc 0.979
+epoch 23, batches 844|844, train-acc 0.985, loss 0.186, para-norm 166.540, grad-norm 521.685, time 2410.78s, 
+dev-acc 0.982
+epoch 24, batches 844|844, train-acc 0.985, loss 0.162, para-norm 157.709, grad-norm 0.000, time 1905.76s, 
+dev-acc 0.983
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3521)
+dev size # sent tensor(1222)
+test size # sent tensor(1089)
+loading input embeddings...
+start to train...
+training end!
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3521)
+dev size # sent tensor(1222)
+test size # sent tensor(1089)
+loading input embeddings...
+start to train...
+training end!
+test-acc 0.961
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+epoch 0, batches 1000|1020, train-acc 0.719, loss 7.287, para-norm 292.232, grad-norm 53.164, time 188.05s, 
+epoch 0, batches 1020|1020, train-acc 0.688, loss 1.381, para-norm 303.002, grad-norm 268.375, time 4.05s, 
+dev-acc 0.728
+current best-dev:
+	0 0.728
+save model!
+epoch 1, batches 1000|1020, train-acc 0.721, loss 1.255, para-norm 295.861, grad-norm 0.175, time 187.79s, 
+epoch 1, batches 1020|1020, train-acc 0.804, loss 0.790, para-norm 294.885, grad-norm 0.967, time 3.70s, 
+dev-acc 0.728
+epoch 2, batches 1000|1020, train-acc 0.722, loss 0.990, para-norm 294.119, grad-norm 0.964, time 202.53s, 
+epoch 2, batches 1020|1020, train-acc 0.744, loss 0.678, para-norm 298.565, grad-norm 0.033, time 4.65s, 
+dev-acc 0.728
+epoch 3, batches 1000|1020, train-acc 0.726, loss 0.931, para-norm 306.368, grad-norm 0.664, time 208.59s, 
+epoch 3, batches 1020|1020, train-acc 0.630, loss 1.204, para-norm 305.987, grad-norm 0.082, time 4.44s, 
+dev-acc 0.728
+epoch 4, batches 1000|1020, train-acc 0.723, loss 0.881, para-norm 362.063, grad-norm 0.119, time 212.07s, 
+epoch 4, batches 1020|1020, train-acc 0.770, loss 0.716, para-norm 362.325, grad-norm 0.205, time 4.14s, 
+dev-acc 0.728
+epoch 5, batches 1000|1020, train-acc 0.721, loss 0.876, para-norm 438.516, grad-norm 138.602, time 206.85s, 
+epoch 5, batches 1020|1020, train-acc 0.860, loss 0.564, para-norm 435.691, grad-norm 0.070, time 4.41s, 
+dev-acc 0.728
+epoch 6, batches 1000|1020, train-acc 0.724, loss 0.801, para-norm 474.680, grad-norm 30.271, time 196.58s, 
+epoch 6, batches 1020|1020, train-acc 0.672, loss 0.689, para-norm 478.360, grad-norm 0.334, time 4.17s, 
+dev-acc 0.728
+epoch 7, batches 1000|1020, train-acc 0.727, loss 0.818, para-norm 475.127, grad-norm 0.410, time 192.72s, 
+epoch 7, batches 1020|1020, train-acc 0.571, loss 1.192, para-norm 473.747, grad-norm 3.503, time 4.38s, 
+dev-acc 0.728
+epoch 8, batches 1000|1020, train-acc 0.724, loss 0.757, para-norm 482.096, grad-norm 66.753, time 200.35s, 
+epoch 8, batches 1020|1020, train-acc 0.783, loss 0.877, para-norm 483.486, grad-norm 0.414, time 3.80s, 
+dev-acc 0.728
+epoch 9, batches 1000|1020, train-acc 0.753, loss 0.714, para-norm 497.873, grad-norm 0.267, time 197.99s, 
+epoch 9, batches 1020|1020, train-acc 0.800, loss 0.649, para-norm 496.073, grad-norm 19.379, time 3.94s, 
+dev-acc 0.731
+current best-dev:
+	0 0.728
+	9 0.731
+save model!
+epoch 10, batches 1000|1020, train-acc 0.764, loss 0.670, para-norm 491.602, grad-norm 0.248, time 196.34s, 
+epoch 10, batches 1020|1020, train-acc 0.744, loss 0.673, para-norm 491.995, grad-norm 0.496, time 3.65s, 
+dev-acc 0.753
+current best-dev:
+	0 0.728
+	9 0.731
+	10 0.753
+save model!
+epoch 11, batches 1000|1020, train-acc 0.725, loss 0.912, para-norm 493.650, grad-norm 0.180, time 186.93s, 
+epoch 11, batches 1020|1020, train-acc 0.565, loss 1.299, para-norm 493.446, grad-norm 20.220, time 4.17s, 
+dev-acc 0.728
+epoch 12, batches 1000|1020, train-acc 0.748, loss 0.759, para-norm 498.121, grad-norm 2487.861, time 189.68s, 
+epoch 12, batches 1020|1020, train-acc 0.812, loss 0.595, para-norm 497.391, grad-norm 0.391, time 3.74s, 
+dev-acc 0.772
+current best-dev:
+	0 0.728
+	9 0.731
+	10 0.753
+	12 0.772
+save model!
+epoch 13, batches 1000|1020, train-acc 0.769, loss 0.733, para-norm 486.594, grad-norm 0.812, time 6435.72s, 
+epoch 13, batches 1020|1020, train-acc 0.893, loss 0.373, para-norm 486.335, grad-norm 0.219, time 3.69s, 
+dev-acc 0.795
+current best-dev:
+	0 0.728
+	9 0.731
+	10 0.753
+	12 0.772
+	13 0.795
+save model!
+epoch 14, batches 1000|1020, train-acc 0.789, loss 0.650, para-norm 475.152, grad-norm 5.307, time 186.81s, 
+epoch 14, batches 1020|1020, train-acc 0.900, loss 0.326, para-norm 474.486, grad-norm 0.044, time 3.62s, 
+dev-acc 0.812
+current best-dev:
+	0 0.728
+	9 0.731
+	10 0.753
+	12 0.772
+	13 0.795
+	14 0.812
+save model!
+train_file data/entail-train.hdf5
+dev_file data/entail-val.hdf5
+test_file data/entail-test.hdf5
+w2v_file data/glove.hdf5
+log_dir log/
+log_fname logForZxy.log
+gpu_id 1
+embedding_size 300
+epoch 250
+dev_interval 1
+optimizer Adagrad
+Adagrad_init 0.0
+lr 0.05
+hidden_size 300
+max_length 100
+display_interval 1000
+max_grad_norm 5
+para_init 0.01
+weight_decay 5e-05
+model_path model
+loading data...
+train size # sent tensor(3515)
+dev size # sent tensor(2491)
+test size # sent tensor(74)
+loading input embeddings...
+start to train...
+epoch 0, batches 1000|1020, train-acc 0.721, loss 0.977, para-norm 314.889, grad-norm 141.127, time 189.80s, 
+epoch 0, batches 1020|1020, train-acc 0.805, loss 0.656, para-norm 311.700, grad-norm 0.190, time 3.93s, 
+dev-acc 0.728
+current best-dev:
+	0 0.728
+save model!
+epoch 1, batches 1000|1020, train-acc 0.724, loss 0.791, para-norm 366.414, grad-norm 0.000, time 189.56s, 
+epoch 1, batches 1020|1020, train-acc 0.840, loss 0.905, para-norm 361.875, grad-norm 0.094, time 3.79s, 
+dev-acc 0.728
+epoch 2, batches 1000|1020, train-acc 0.728, loss 0.818, para-norm 373.539, grad-norm 0.984, time 187.13s, 
+epoch 2, batches 1020|1020, train-acc 0.722, loss 0.631, para-norm 373.148, grad-norm 0.314, time 4.07s, 
+dev-acc 0.728
+epoch 3, batches 1000|1020, train-acc 0.725, loss 0.748, para-norm 366.545, grad-norm 2.307, time 188.46s, 
+epoch 3, batches 1020|1020, train-acc 0.796, loss 0.493, para-norm 367.765, grad-norm 0.129, time 4.61s, 
+dev-acc 0.728
+epoch 4, batches 1000|1020, train-acc 0.724, loss 0.798, para-norm 373.759, grad-norm 0.044, time 205.89s, 
+epoch 4, batches 1020|1020, train-acc 0.620, loss 1.303, para-norm 374.142, grad-norm 48.198, time 4.13s, 
+dev-acc 0.728
+epoch 5, batches 1000|1020, train-acc 0.722, loss 0.841, para-norm 380.423, grad-norm 0.436, time 203.37s, 
+epoch 5, batches 1020|1020, train-acc 0.787, loss 1.212, para-norm 383.595, grad-norm 11.490, time 3.82s, 
+dev-acc 0.728
+epoch 6, batches 1000|1020, train-acc 0.722, loss 0.835, para-norm 394.411, grad-norm 0.004, time 201.88s, 
+epoch 6, batches 1020|1020, train-acc 0.735, loss 1.083, para-norm 393.174, grad-norm 0.403, time 3.73s, 
+dev-acc 0.728
+epoch 7, batches 1000|1020, train-acc 0.720, loss 0.806, para-norm 406.997, grad-norm 0.060, time 205.48s, 
+epoch 7, batches 1020|1020, train-acc 0.854, loss 0.430, para-norm 406.969, grad-norm 0.653, time 4.44s, 
+dev-acc 0.728
+epoch 8, batches 1000|1020, train-acc 0.722, loss 0.899, para-norm 411.901, grad-norm 0.536, time 208.98s, 
+epoch 8, batches 1020|1020, train-acc 0.671, loss 0.844, para-norm 411.357, grad-norm 0.379, time 3.93s, 
+dev-acc 0.728
+epoch 9, batches 1000|1020, train-acc 0.723, loss 0.814, para-norm 404.842, grad-norm 0.020, time 201.46s, 
+epoch 9, batches 1020|1020, train-acc 0.784, loss 0.842, para-norm 404.746, grad-norm 0.536, time 4.12s, 
+dev-acc 0.728
+epoch 10, batches 1000|1020, train-acc 0.721, loss 1.000, para-norm 395.453, grad-norm 0.784, time 195.41s, 
+epoch 10, batches 1020|1020, train-acc 0.821, loss 0.535, para-norm 395.244, grad-norm 1.257, time 4.29s, 
+dev-acc 0.728
+epoch 11, batches 1000|1020, train-acc 0.723, loss 0.880, para-norm 394.171, grad-norm 336.747, time 192.08s, 
+epoch 11, batches 1020|1020, train-acc 0.744, loss 0.705, para-norm 393.673, grad-norm 1.061, time 4.10s, 
+dev-acc 0.728
+epoch 12, batches 1000|1020, train-acc 0.723, loss 0.797, para-norm 389.397, grad-norm 0.940, time 192.10s, 
+epoch 12, batches 1020|1020, train-acc 0.745, loss 0.573, para-norm 389.387, grad-norm 0.511, time 4.09s, 
+dev-acc 0.728
+epoch 13, batches 1000|1020, train-acc 0.724, loss 0.818, para-norm 382.055, grad-norm 0.432, time 199.03s, 
+epoch 13, batches 1020|1020, train-acc 0.686, loss 0.770, para-norm 382.264, grad-norm 101.387, time 4.11s, 
+dev-acc 0.728
+epoch 14, batches 1000|1020, train-acc 0.723, loss 0.838, para-norm 376.620, grad-norm 0.377, time 197.81s, 
+epoch 14, batches 1020|1020, train-acc 0.745, loss 0.649, para-norm 376.769, grad-norm 51.525, time 4.20s, 
+dev-acc 0.728
+epoch 15, batches 1000|1020, train-acc 0.720, loss 0.789, para-norm 377.747, grad-norm 4.374, time 201.29s, 
+epoch 15, batches 1020|1020, train-acc 0.857, loss 0.561, para-norm 376.652, grad-norm 3.850, time 3.94s, 
+dev-acc 0.728
+epoch 16, batches 1000|1020, train-acc 0.726, loss 0.797, para-norm 368.951, grad-norm 0.413, time 196.24s, 
+epoch 16, batches 1020|1020, train-acc 0.641, loss 0.679, para-norm 369.043, grad-norm 1.505, time 4.16s, 
+dev-acc 0.728
+epoch 17, batches 1000|1020, train-acc 0.724, loss 0.756, para-norm 367.280, grad-norm 0.875, time 196.85s, 
+epoch 17, batches 1020|1020, train-acc 0.695, loss 0.724, para-norm 367.030, grad-norm 6.669, time 3.86s, 
+dev-acc 0.728
+epoch 18, batches 1000|1020, train-acc 0.723, loss 0.926, para-norm 356.589, grad-norm 0.025, time 197.25s, 
+epoch 18, batches 1020|1020, train-acc 0.750, loss 1.236, para-norm 356.262, grad-norm 7.061, time 3.80s, 
+dev-acc 0.728
+epoch 19, batches 1000|1020, train-acc 0.723, loss 0.827, para-norm 355.852, grad-norm 0.231, time 197.05s, 
+epoch 19, batches 1020|1020, train-acc 0.756, loss 0.658, para-norm 355.717, grad-norm 5.886, time 3.57s, 
+dev-acc 0.728
+epoch 20, batches 1000|1020, train-acc 0.728, loss 0.858, para-norm 352.290, grad-norm 1.034, time 197.31s, 
+epoch 20, batches 1020|1020, train-acc 0.516, loss 1.510, para-norm 352.396, grad-norm 0.273, time 3.88s, 
+dev-acc 0.728
+epoch 21, batches 1000|1020, train-acc 0.723, loss 0.827, para-norm 352.560, grad-norm 35.145, time 193.06s, 
+epoch 21, batches 1020|1020, train-acc 0.742, loss 0.767, para-norm 352.117, grad-norm 1.433, time 3.77s, 
+dev-acc 0.728
+epoch 22, batches 1000|1020, train-acc 0.731, loss 0.895, para-norm 350.237, grad-norm 0.492, time 192.63s, 
+epoch 22, batches 1020|1020, train-acc 0.518, loss 1.036, para-norm 350.189, grad-norm 0.232, time 3.93s, 
+dev-acc 0.728
+epoch 23, batches 1000|1020, train-acc 0.729, loss 0.768, para-norm 353.310, grad-norm 98.861, time 194.01s, 
+epoch 23, batches 1020|1020, train-acc 0.556, loss 0.970, para-norm 352.909, grad-norm 85.496, time 3.76s, 
+dev-acc 0.728
+epoch 24, batches 1000|1020, train-acc 0.728, loss 0.902, para-norm 352.526, grad-norm 0.118, time 194.59s, 
+epoch 24, batches 1020|1020, train-acc 0.627, loss 1.282, para-norm 352.215, grad-norm 0.384, time 3.69s, 
+dev-acc 0.728
+epoch 25, batches 1000|1020, train-acc 0.725, loss 0.850, para-norm 356.643, grad-norm 0.007, time 196.06s, 
+epoch 25, batches 1020|1020, train-acc 0.612, loss 1.006, para-norm 355.492, grad-norm 24.403, time 4.60s, 
+dev-acc 0.728
+epoch 26, batches 1000|1020, train-acc 0.721, loss 0.829, para-norm 354.144, grad-norm 0.523, time 202.05s, 
+epoch 26, batches 1020|1020, train-acc 0.839, loss 0.498, para-norm 354.161, grad-norm 0.758, time 3.81s, 
+dev-acc 0.728
+epoch 27, batches 1000|1020, train-acc 0.725, loss 0.809, para-norm 358.175, grad-norm 49.285, time 199.69s, 
+epoch 27, batches 1020|1020, train-acc 0.702, loss 0.851, para-norm 358.336, grad-norm 0.093, time 4.15s, 
+dev-acc 0.728
+epoch 28, batches 1000|1020, train-acc 0.723, loss 0.821, para-norm 358.214, grad-norm 0.031, time 200.62s, 
+epoch 28, batches 1020|1020, train-acc 0.708, loss 0.676, para-norm 357.937, grad-norm 0.729, time 3.77s, 
+dev-acc 0.728
+epoch 29, batches 1000|1020, train-acc 0.724, loss 0.878, para-norm 356.025, grad-norm 0.083, time 204.12s, 
+epoch 29, batches 1020|1020, train-acc 0.773, loss 0.790, para-norm 355.727, grad-norm 49.627, time 4.19s, 
+dev-acc 0.728
+epoch 30, batches 1000|1020, train-acc 0.720, loss 0.908, para-norm 351.881, grad-norm 0.127, time 208.36s, 
+epoch 30, batches 1020|1020, train-acc 0.881, loss 0.466, para-norm 351.788, grad-norm 0.147, time 4.45s, 
+dev-acc 0.728
+epoch 31, batches 1000|1020, train-acc 0.725, loss 0.908, para-norm 345.627, grad-norm 0.099, time 205.77s, 
+epoch 31, batches 1020|1020, train-acc 0.650, loss 1.378, para-norm 346.386, grad-norm 0.194, time 4.20s, 
+dev-acc 0.728
